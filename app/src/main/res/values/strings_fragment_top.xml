@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_play">Play</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_recording">Recording</string>
+    <string name="btn_assign">Assign</string>
+    <string name="pattern_assigned">Pattern assigned</string>
+</resources>

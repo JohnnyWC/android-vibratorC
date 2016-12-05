@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/top_fragment_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/pattern_zone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/dp20"
+        android:layout_weight="1"
+        android:background="@color/top_fragment_pattern_background" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp5"
+            android:layout_weight="1"
+            android:background="@color/top_fragment_button"
+            android:text="@string/btn_play"
+            android:textSize="@dimen/sp18" />
+
+        <Button
+            android:id="@+id/btn_assign"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp5"
+            android:layout_weight="1"
+            android:background="@color/top_fragment_button"
+            android:text="@string/btn_assign"
+            android:textSize="@dimen/sp18" />
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp5"
+            android:layout_weight="1"
+            android:background="@color/top_fragment_button"
+            android:text="@string/btn_record"
+            android:textSize="@dimen/sp18" />
+
+    </LinearLayout>
+
+</LinearLayout>

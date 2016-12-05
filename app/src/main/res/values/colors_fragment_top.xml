@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_fragment_background">#FFC0CB</color>
+    <color name="top_fragment_pattern_background">#DAA520</color>
+
+    <color name="top_fragment_button">#DDA0DD</color>
+</resources>
